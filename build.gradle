@@ -25,3 +25,7 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    navigation_version = '1.0.0-alpha09'
+}

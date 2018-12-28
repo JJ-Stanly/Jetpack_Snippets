@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">navigation</string>
+    <string name="app_name">Android Jetpack</string>
+
+    <string name="title_main_host">This is NavHostFragment</string>
+    <string name="text_ok">OK</string>
+    <string name="text_next">Next</string>
 </resources>
