@@ -28,4 +28,5 @@ task clean(type: Delete) {
 
 ext {
     navigation_version = '1.0.0-alpha09'
+    lifecycle_version = "2.0.0"
 }
