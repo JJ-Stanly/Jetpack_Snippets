@@ -1,4 +1,4 @@
-package com.jjlab.lifecycleaware
+package com.jjlab.lifecycleaware.simple_activity_and_its_model
 
 import android.os.Bundle
 import androidx.lifecycle.*

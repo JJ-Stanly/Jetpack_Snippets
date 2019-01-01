@@ -1,9 +1,12 @@
-package com.jjlab.lifecycleaware
+package com.jjlab.lifecycleaware.simple_activity_and_its_model
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
+import com.jjlab.lifecycleaware.R
+import com.jjlab.lifecycleaware.activity_fragment_shared_viewmodel.HostActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -29,6 +32,12 @@ class MainActivity : AppCompatActivity() {
 
         act_main_btn.setOnClickListener {
             viewModel.increment()
+        }
+
+        // Next activity
+        act_main_btn_shared_view_model.setOnClickListener {
+            val intentSharedViewModel = Intent(this, HostActivity::class.java)
+            startActivity(intentSharedViewModel)
         }
     }
 

@@ -10,12 +10,16 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".simple_activity_and_its_model.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity
+                android:name=".activity_fragment_shared_viewmodel.HostActivity"
+                android:parentActivityName=".simple_activity_and_its_model.MainActivity">
         </activity>
     </application>
 
