@@ -1,1 +1,1 @@
-include ':base', ':navigation', ':lifecycleaware'
+include ':base', ':navigation', ':lifecycleaware', ':roompersistence'

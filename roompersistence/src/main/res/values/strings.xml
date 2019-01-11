@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Room Persistence</string>
+    <string name="common_get_data">Get data</string>
+    <string name="common_save_data">Save Data</string>
+</resources>
